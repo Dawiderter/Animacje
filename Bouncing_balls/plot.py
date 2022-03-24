@@ -15,7 +15,7 @@ max_x_array : List[float] = []
 min_x_array : List[float] = []
 x_array : List[float] = []
 
-found = False
+#found = False
 
 t = 0
 while t <= MAX_T:
@@ -23,9 +23,9 @@ while t <= MAX_T:
     model.update_pos(t)
     (min_x, max_x) = model.get_min_max_x()
     del_x_array.append(max_x - min_x)
-    if (max_x - min_x) > 0.99 and not found:
-        print(t)
-        found = True
+    # if (max_x - min_x) > 0.99 and not found:
+    #     print(t)
+    #     found = True
     x_array.append(model.Cache[model.DEFAULT_NUM][1])
     min_x_array.append(min_x)
     max_x_array.append(max_x)

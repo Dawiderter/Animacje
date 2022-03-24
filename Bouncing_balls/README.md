@@ -32,7 +32,7 @@ Przy uruchamianiu interaktywnej symulacji, łatwiej oglądać, kiedy mamy duży 
 Przy uruchamianiu wykresów, w celu większej dokładności, warto ustawić mały ERROR_STEP, czyli więcej symulowanych kul.
 
 ## Interaktywna symulacja
-https://user-images.githubusercontent.com/82039813/159826636-20b9919b-31c2-4940-a9ca-60103ed03b70.mp4
+[Preview](https://user-images.githubusercontent.com/82039813/159826636-20b9919b-31c2-4940-a9ca-60103ed03b70.mp4)
 
 ### Wymagania
 Kod został napisany w Pythonie 3.9.6, ale powinien działać na każdej wersji Pythona 3.x.x.

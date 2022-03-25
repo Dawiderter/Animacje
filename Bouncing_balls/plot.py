@@ -4,7 +4,7 @@ import numpy as np
 from typing import List
 
 #Prawa granica wykresu
-MAX_T = 100
+MAX_T = 20
 #Krok czasu, im większy, tym większa dokładność
 T_STEP = 0.01
 
